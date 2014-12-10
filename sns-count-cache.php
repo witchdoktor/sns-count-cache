@@ -429,7 +429,7 @@ class SNS_Count_Cache {
 	 * @since 0.1.0
 	 */
     public function action_admin_menu() {
-	    $this->plugin_screen_hook_suffix = add_options_page( 'SNS Count Cache', 'SNS Count Cache', 8, 'sns_count_cache_options_page', array( $this, 'option_page' ) );
+	    $this->plugin_screen_hook_suffix = add_options_page( 'SNS Count Cache', 'SNS Count Cache', 'administrator', 'sns_count_cache_options_page', array( $this, 'option_page' ) );
     }
 		
     /**
